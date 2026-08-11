@@ -1,0 +1,27 @@
+name: echo_rescue
+description: A new Flutter project for Echo Rescue.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+  geolocator: ^10.1.0
+  http: ^1.2.0
+  firebase_core: ^2.24.2
+  firebase_messaging: ^14.7.19
+  connectivity_plus: ^6.0.3
+  sqflite: ^2.3.0
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
